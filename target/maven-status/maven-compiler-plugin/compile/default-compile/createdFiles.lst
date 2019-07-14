@@ -1,0 +1,9 @@
+org\sfdc\pages\RegistrationPage.class
+org\sfdc\base\TestBase.class
+org\sfdc\pages\StartPage.class
+org\ssfdc\api\App.class
+org\sfdc\util\TestUtil.class
+org\ssfdc\api\Reusable.class
+org\sfdc\pages\PersonDetailsPage.class
+org\sfdc\pages\AccessSFDC.class
+org\sfdc\pages\TreatmentPage.class

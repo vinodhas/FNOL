@@ -1,0 +1,4 @@
+org\ssfdc\api\PersonDetailsTest.class
+org\ssfdc\api\StartPageTest.class
+org\ssfdc\api\RegistrationPageTest.class
+org\ssfdc\api\ApiResponseTest.class

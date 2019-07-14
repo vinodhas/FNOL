@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [One Touch application API test]">
+  <test name="One Touch application tests">
+    <classes>
+      <class name="org.ssfdc.api.AppTest"/>
+      <class name="org.ssfdc.api.StartPageTest"/>
+      <class name="org.ssfdc.api.RegistrationPageTest"/>
+      <class name="org.ssfdc.api.PersonDetailsTest"/>
+    </classes>
+  </test> <!-- One Touch application tests -->
+  <test name="One Touch application tests(failed)">
+    <classes>
+      <class name="org.ssfdc.api.PersonDetailsTest">
+        <methods>
+          <include name="enterData" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.ssfdc.api.PersonDetailsTest -->
+      <class name="org.ssfdc.api.RegistrationPageTest">
+        <methods>
+          <include name="entry"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.ssfdc.api.RegistrationPageTest -->
+      <class name="org.ssfdc.api.StartPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="startPage"/>
+        </methods>
+      </class> <!-- org.ssfdc.api.StartPageTest -->
+    </classes>
+  </test> <!-- One Touch application tests(failed) -->
+</suite> <!-- Failed suite [One Touch application API test] -->
