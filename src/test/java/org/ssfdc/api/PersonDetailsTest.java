@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
 public class PersonDetailsTest extends TestBase{
-	
+	//jhjhjhj
 	AccessSFDC sfdcAccess;
 	PersonDetailsPage personal;
 	RegistrationPage regPage;
